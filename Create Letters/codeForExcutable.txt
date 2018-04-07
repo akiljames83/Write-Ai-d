@@ -1,0 +1,7 @@
+pyinstaller -w -F -i C:\Users\akilj\Desktop\Create Letters\checker.ico 'Write Ai-d.py'
+
+lil treat for you :*
+
+pyinstaller -w -F -i 'C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\pencil.ico' 'Write Ai-d Script.py'
+
+amrit

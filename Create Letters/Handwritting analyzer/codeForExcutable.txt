@@ -1,0 +1,3 @@
+pyinstaller -w -F -i C:\Users\akilj\Desktop\Create Letters\pencil.ico atest.py
+
+lil treat for you :*

@@ -1,0 +1,158 @@
+missing module named 'win32com.gen_py' - imported by win32com, c:\users\akilj\appdata\local\programs\python\python35\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+missing module named multiprocessing.SimpleQueue - imported by multiprocessing, concurrent.futures.process
+missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection
+missing module named pyimod03_importers - imported by PyInstaller.loader.pyimod02_archive, c:\users\akilj\appdata\local\programs\python\python35\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+missing module named __builtin__ - imported by PIL.Image, numpy.core.numerictypes, numpy.core.numeric, numpy.distutils.misc_util, numpy.lib.function_base, numpy.lib._iotools, numpy.ma.core, numpy, tensorflow.python.pywrap_tensorflow_internal, pkg_resources._vendor.pyparsing
+missing module named ordereddict - imported by google.protobuf.json_format, pkg_resources._vendor.pyparsing
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs
+missing module named com - imported by pkg_resources._vendor.appdirs
+missing module named _winreg - imported by numpy.distutils.cpuinfo, pkg_resources._vendor.appdirs
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers, pkg_resources._vendor.packaging.requirements
+missing module named StringIO - imported by numpy.lib.utils, numpy.testing.nose_tools.utils, PyInstaller.lib.modulegraph._compat, PyInstaller.lib.modulegraph.zipio, numpy.lib.format, six, pkg_resources._vendor.six
+missing module named _scproxy - imported by urllib.request
+missing module named 'macholib.compat' - imported by macholib.MachO
+missing module named _pkgutil - imported by PyInstaller.lib.modulegraph.modulegraph
+missing module named xdis - imported by PyInstaller.lib.modulegraph._compat
+missing module named dis3 - imported by PyInstaller.lib.modulegraph._compat
+missing module named urllib.pathname2url - imported by urllib, PyInstaller.lib.modulegraph._compat
+missing module named PyQt5 - imported by pyperclip, PyInstaller.utils.hooks.qt
+missing module named pyimod00_crypto_key - imported by PyInstaller.loader.pyimod02_archive
+missing module named thread - imported by numpy.core.arrayprint, PyInstaller.loader.pyimod02_archive
+missing module named Crypto - imported by PyInstaller.building.makespec
+missing module named 'win32ctypes.pywin32' - imported by PyInstaller.compat
+missing module named win32ctypes - imported by PyInstaller.compat
+missing module named UserDict - imported by PyInstaller.compat
+missing module named _sysconfigdata - imported by sysconfig
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern, pkg_resources
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern, pkg_resources
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, pkg_resources._vendor.packaging.requirements
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources
+missing module named 'multiprocessing.forking' - imported by c:\users\akilj\appdata\local\programs\python\python35\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_multiprocessing.py
+missing module named resource - imported by posix, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named posix - imported by os, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named 'org.python' - imported by pickle, xml.sax, setuptools.sandbox, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named readline - imported by cmd, code, pdb, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, PyInstaller.loader.pyimod02_archive, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named java - imported by platform, unittest.mock, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named vms_lib - imported by platform, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named termios - imported by tty, getpass, absl.flags._helpers, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named grp - imported by tarfile, shutil, pathlib, distutils.archive_util, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, pathlib, distutils.util, distutils.archive_util, netrc, getpass, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named ce - imported by os, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named org - imported by copy, C:\Users\akilj\Desktop\School\1P10A\Design Tut\DP4\Write Ai-d\Code to run WA\Write Ai-d Script.py
+missing module named google.protobuf.enable_deterministic_proto_serialization - imported by google.protobuf, google.protobuf.internal.api_implementation
+missing module named google.protobuf._use_fast_cpp_protos - imported by google.protobuf, google.protobuf.internal.api_implementation
+missing module named google.protobuf.internal.use_pure_python - imported by google.protobuf.internal, google.protobuf.internal.api_implementation
+missing module named six.moves.xrange - imported by six.moves, tensorflow.python.framework.ops, tensorflow.python.ops.control_flow_ops, tensorflow.python.ops.math_ops, tensorflow.python.ops.variable_scope, tensorflow.python.ops.data_flow_grad, tensorflow.python.ops.special_math_ops, tensorflow.python.ops.gradients_impl, tensorflow.python.ops.control_flow_grad, tensorflow.python.ops.embedding_ops, tensorflow.python.layers.core, tensorflow.python.layers.normalization, tensorflow.python.training.input
+runtime module named six.moves - imported by tensorflow.python.framework.ops, absl.flags._helpers, tensorflow.python.framework.common_shapes, tensorflow.python.ops.control_flow_ops, tensorflow.python.ops.math_ops, tensorflow.python.ops.variable_scope, tensorflow.python.ops.data_flow_grad, tensorflow.python.ops.special_math_ops, tensorflow.python.ops.gradients_impl, tensorflow.python.ops.control_flow_grad, tensorflow.python.ops.embedding_ops, 'six.moves.urllib', tensorflow.python.keras._impl.keras.utils.conv_utils, tensorflow.python.keras._impl.keras.engine.topology, tensorflow.python.layers.core, tensorflow.python.layers.normalization, tensorflow.python.keras._impl.keras.optimizers, tensorflow.python.keras._impl.keras.datasets.cifar, tensorflow.python.keras._impl.keras.preprocessing.sequence, tensorflow.python.keras._impl.keras.preprocessing.text, tensorflow.python.training.input
+missing module named six.moves.zip - imported by six.moves, tensorflow.python.keras._impl.keras.engine.topology, tensorflow.python.keras._impl.keras.optimizers, tensorflow.python.keras._impl.keras.preprocessing.text
+missing module named six.moves.range - imported by six.moves, absl.flags._helpers, tensorflow.python.keras._impl.keras.utils.conv_utils, tensorflow.python.keras._impl.keras.preprocessing.sequence, tensorflow.python.keras._impl.keras.preprocessing.text
+missing module named pandas - imported by tensorflow.python.estimator.inputs.queues.feeding_functions, tensorflow.python.estimator.inputs.pandas_io
+missing module named fcntl - imported by absl.flags._helpers
+missing module named portpicker - imported by tensorflow.python.framework.test_util
+missing module named tensorflow.python.framework.fast_tensor_util - imported by tensorflow.python.framework, tensorflow.python.framework.tensor_util
+missing module named mock - imported by tensorflow.python.platform.test
+missing module named yaml - imported by tensorflow.python.keras._impl.keras.engine.topology, tensorflow.python.keras._impl.keras.models
+missing module named h5py - imported by tensorflow.python.keras._impl.keras.utils.io_utils, tensorflow.python.keras._impl.keras.engine.topology, tensorflow.python.keras._impl.keras.models
+missing module named pydot - imported by tensorflow.python.keras._impl.keras.utils.vis_utils
+missing module named pydotplus - imported by tensorflow.python.keras._impl.keras.utils.vis_utils
+missing module named pydot_ng - imported by tensorflow.python.keras._impl.keras.utils.vis_utils
+missing module named 'scipy.sparse' - imported by tensorflow.python.keras._impl.keras.engine.training
+missing module named Queue - imported by tensorflow.python.keras._impl.keras.utils.data_utils
+missing module named "'six.moves.urllib'.request" - imported by tensorflow.python.keras._impl.keras.utils.data_utils
+missing module named "'six.moves.urllib'.error" - imported by tensorflow.python.keras._impl.keras.utils.data_utils
+missing module named 'scipy.ndimage' - imported by tensorflow.python.keras._impl.keras.preprocessing.image
+missing module named scipy - imported by numpy.testing.nose_tools.nosetester, tensorflow.python.keras._impl.keras.preprocessing.image
+missing module named requests - imported by tensorflow.python.keras._impl.keras.callbacks
+missing module named numpy.lib.i0 - imported by numpy.lib, numpy.dual
+missing module named numpy.linalg.inv - imported by numpy.linalg, numpy.matrixlib.defmatrix, numpy.lib.polynomial
+missing module named dummy_thread - imported by numpy.core.arrayprint
+missing module named cPickle - imported by numpy.core.numeric, numpy.lib.format, numpy.lib.npyio, numpy.ma.core
+missing module named cStringIO - imported by cPickle
+missing module named copy_reg - imported by cPickle, cStringIO, numpy.core
+missing module named ConfigParser - imported by numpy.distutils.system_info, numpy.distutils.npy_pkg_config
+missing module named 'numpy_distutils.cpuinfo' - imported by numpy.f2py.diagnose
+missing module named 'numpy_distutils.fcompiler' - imported by numpy.f2py.diagnose
+missing module named 'numpy_distutils.command' - imported by numpy.f2py.diagnose
+missing module named numpy_distutils - imported by numpy.f2py.diagnose
+missing module named numpy.testing.memusage - imported by numpy.testing, numpy.f2py.f2py_testing
+missing module named numpy.testing.jiffies - imported by numpy.testing, numpy.f2py.f2py_testing
+missing module named setuptools.extern.packaging - imported by setuptools.extern, setuptools.dist, setuptools.command.egg_info
+missing module named 'setuptools.extern.six' - imported by setuptools, setuptools.extension
+missing module named _manylinux - imported by setuptools.pep425tags
+missing module named wincertstore - imported by setuptools.ssl_support
+missing module named 'backports.ssl_match_hostname' - imported by setuptools.ssl_support
+missing module named backports - imported by setuptools.ssl_support
+missing module named 'setuptools.extern.packaging.version' - imported by setuptools.msvc
+missing module named 'setuptools.extern.six.moves' - imported by setuptools.dist, setuptools.py33compat, setuptools.command.easy_install, setuptools.sandbox, setuptools.command.setopt, setuptools.package_index, setuptools.ssl_support, setuptools.command.egg_info, setuptools.command.py36compat, setuptools.namespaces, setuptools.msvc
+missing module named setuptools.extern.six - imported by setuptools.extern, setuptools.monkey, setuptools.dist, setuptools.py33compat, setuptools.config, setuptools.command.easy_install, setuptools.sandbox, setuptools.py27compat, setuptools.package_index, setuptools.wheel, setuptools.command.egg_info, setuptools.command.sdist, setuptools.command.bdist_egg, setuptools.unicode_utils, setuptools.glob, setuptools.command.develop
+missing module named __svn_version__ - imported by numpy.f2py.__version__
+missing module named numarray - imported by numpy.distutils.system_info
+missing module named Numeric - imported by numpy.distutils.system_info
+missing module named commands - imported by numpy.distutils.cpuinfo
+missing module named _curses - imported by curses, curses.has_key
+missing module named 'nose.plugins' - imported by numpy.testing.nose_tools.noseclasses, numpy.testing.nose_tools.nosetester
+missing module named 'nose.util' - imported by numpy.testing.nose_tools.noseclasses
+missing module named nose - imported by numpy.testing.nose_tools.utils, numpy.testing.nose_tools.decorators, numpy.testing.nose_tools.noseclasses
+missing module named numpy.core.number - imported by numpy.core, numpy.testing.nose_tools.utils
+missing module named numpy.lib.imag - imported by numpy.lib, numpy.testing.nose_tools.utils
+missing module named numpy.lib.real - imported by numpy.lib, numpy.testing.nose_tools.utils
+missing module named numpy.lib.iscomplexobj - imported by numpy.lib, numpy.testing.nose_tools.utils
+missing module named numpy.core.signbit - imported by numpy.core, numpy.testing.nose_tools.utils
+missing module named numpy.core.float64 - imported by numpy.core, numpy.testing.nose_tools.utils
+missing module named numpy.core.float32 - imported by numpy.core, numpy.testing.nose_tools.utils
+missing module named numpy.core.integer - imported by numpy.core, numpy.fft.helper
+missing module named numpy.core.sqrt - imported by numpy.core, numpy.linalg.linalg, numpy.fft.fftpack
+missing module named numpy.core.conjugate - imported by numpy.core, numpy.fft.fftpack
+missing module named numpy.lib.triu - imported by numpy.lib, numpy.linalg.linalg
+missing module named numpy.core.divide - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.object_ - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.intp - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.longdouble - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.geterrobj - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.maximum - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.add - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.complexfloating - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.inexact - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.cdouble - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.csingle - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.double - imported by numpy.core, numpy.linalg.linalg
+missing module named numpy.core.single - imported by numpy.core, numpy.linalg.linalg
+missing module named future_builtins - imported by numpy.lib.npyio
+missing module named urllib2 - imported by numpy.lib._datasource
+missing module named urlparse - imported by numpy.lib._datasource
+missing module named numpy.recarray - imported by numpy, numpy.ma.mrecords
+missing module named numpy.dtype - imported by numpy, numpy.ma.mrecords, numpy.ctypeslib
+missing module named numpy.expand_dims - imported by numpy, numpy.ma.core
+missing module named numpy.array - imported by numpy, numpy.ma.core, numpy.ma.extras, numpy.ma.mrecords, numpy.ctypeslib
+missing module named numpy.bool_ - imported by numpy, numpy.ma.core, numpy.ma.mrecords
+missing module named numpy.iscomplexobj - imported by numpy, numpy.ma.core
+missing module named numpy.amin - imported by numpy, numpy.ma.core
+missing module named numpy.amax - imported by numpy, numpy.ma.core
+missing module named numpy.ndarray - imported by numpy, numpy.ma.core, numpy.ma.extras, numpy.ma.mrecords, numpy.ctypeslib
+missing module named numpy.histogramdd - imported by numpy, numpy.lib.twodim_base
+missing module named numpy.eye - imported by numpy, numpy.core.numeric
+missing module named PyQt4 - imported by pyperclip
+missing module named AppKit - imported by pyperclip
+missing module named Foundation - imported by pyperclip
+missing module named 'PyQt4.QtGui' - imported by pyperclip
+missing module named 'PyQt5.QtWidgets' - imported by pyperclip
+missing module named qtpy - imported by pyperclip
+missing module named gtk - imported by pyperclip
+missing module named PIL._imagingagg - imported by PIL, PIL.ImageDraw
+missing module named olefile - imported by PIL.FpxImagePlugin, PIL.MicImagePlugin
+missing module named 'PySide.QtCore' - imported by PIL.ImageQt
+missing module named 'PyQt4.QtCore' - imported by PIL.ImageQt
+missing module named 'PyQt5.QtCore' - imported by PIL.ImageQt
+missing module named pathlib2 - imported by PIL.Image
+missing module named cffi - imported by PIL.ImageTk, PIL.Image, PIL.PyAccess
+missing module named Tkinter - imported by PIL.ImageTk
