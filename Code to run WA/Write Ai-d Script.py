@@ -8,13 +8,6 @@ from PIL import ImageTk, Image, ImageDraw # modules necesary for drawing on the 
 import PIL # import the entire pillow module
 from tkinter import * # import the entire contents of the tkinter module
 import pyperclip # import module to assist in copying and pasting
-# import analyze
-# from analyze import *
-
-
-
-import argparse # not necessary when running the program as executable, but this module is for adding arguments when the function is run via command line
-
 import numpy as np # import numpy is useful for data processing
 import tensorflow as tf # module necesary for the creation and the use of the machine learning algorithm
 
@@ -111,7 +104,7 @@ def analyzeImage(): # Custom function to anaylze image with set parameters, pred
     return labels[i] # return the name (label) of the most probable letter as determined by the MLA
     #return 'yo'
 
-def paint(event): # Function used to draw on the screenb(canvas) ## essentially create ovals of diameter 5 
+def paint(event): # Function used to draw on the screen (canvas); essentially create ovals of diameter 5 
     # python_green = "#476042"
     x1, y1 = (event.x - 1), (event.y - 1)
     x2, y2 = (event.x + 1), (event.y + 1)
@@ -135,7 +128,9 @@ def check(): # this function has 3 parts) firstly it saves the image drawing on 
     #print(ans)
     text += ans # add this character to the global variable text
     displayText.set(text) # use string variable (part of tkinter) to display this updated phrase
-    
+
+# Defining the Functions for the Push Buttons on the Tkinter window to provide functionality to the users writing
+
 def delete(): # function to delete the contents of the canvas window // explained above
     run = len(items)
     for i in range(run):
@@ -164,6 +159,8 @@ def copy(): # using the 'pyperclip' module, copy the gv text's contents to the u
     displayText.set(text)
     pyperclip.copy(text)
 
+    
+# Defining the Tkiner window    
 root = Tk() # initiallization of the tkinter window (Graphical User Interface)
 root.title("Letter Checker")
 root.resizable(width=False,height=False)
@@ -182,8 +179,7 @@ clearSecond = Button(text="Clear Textbox", command=clear2)
 copy = Button(text="Copy Text", command=copy)
 label = Label()
 
-# placement
-
+# Specifying the placement of the Tkinter window
 cv.grid(row=1, column=0, columnspan=4,padx=2)
 check.grid(row=2, column=0, sticky=E+W+S+N)
 clear.grid(row=2, column=1, sticky=E+W+S+N)
@@ -196,7 +192,6 @@ copy.grid(row=5, column=2,sticky=E+W,pady=2)
 label.grid(row=6)
 image1 = PIL.Image.new("RGB", (width, height), white)
 draw = ImageDraw.Draw(image1)
-#cv.pack(expand=YES, fill=BOTH)
 cv.bind("<B1-Motion>", paint)
 
 root.geometry("510x620+300+20") # initalize geometry and placement of the gui window
