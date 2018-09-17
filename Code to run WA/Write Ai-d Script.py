@@ -1,4 +1,3 @@
-# # analyze the image
 # modules that need to be imported for the tensorflow image analyzing function to run
 from __future__ import absolute_import
 from __future__ import division
@@ -22,7 +21,7 @@ items = [] # list used to store the data points created using the drawing functi
 text = '' # global text variable used in tracking the progress of the words analyzed via machine learning algorithm
 
 def load_graph(model_file): # graph that was created through the training process of the machine learning algorithm (MLA)
-  graph = tf.Graph() # initalizing the tensor flow graf
+  graph = tf.Graph() # initalizing the tensorflow graph
   graph_def = tf.GraphDef()
 
   with open(model_file, "rb") as f: # opening up the graph file (input of the function)
@@ -92,27 +91,34 @@ def analyzeImage(): # Custom function to anaylze image with set parameters, pred
   input_operation = graph.get_operation_by_name(input_name)
   output_operation = graph.get_operation_by_name(output_name)
 
-  with tf.Session(graph=graph) as sess: # begin tensorflow session to analyze the image
+  # begin tensorflow session to analyze the image
+  with tf.Session(graph=graph) as sess: 
     results = sess.run(output_operation.outputs[0], {
         input_operation.outputs[0]: t
     })
   results = np.squeeze(results)
 
-  top_k = results.argsort()[-5:][::-1] # create the top 5 results for the MLA in order of the probability of accuaracy
+  # create the top 5 results for the MLA in order of the probability of accuaracy
+  top_k = results.argsort()[-5:][::-1] 
   labels = load_labels(label_file)
   for i in top_k:
-    return labels[i] # return the name (label) of the most probable letter as determined by the MLA
-    #return 'yo'
+    # return the name (label) of the most probable letter as determined by the MLA
+    return labels[i] 
 
 def paint(event): # Function used to draw on the screen (canvas); essentially create ovals of diameter 5 
-    # python_green = "#476042"
     x1, y1 = (event.x - 1), (event.y - 1)
     x2, y2 = (event.x + 1), (event.y + 1)
     a = cv.create_oval(x1, y1, x2, y2, fill="black",width=5)
     draw.line([x1, y1, x2, y2],fill="black",width=5)
     items.append(a) # the values are appended to the list 'items' so they can be deleted at a later time
 
-def check(): # this function has 3 parts) firstly it saves the image drawing on the canvas, it deletes the image from the screen and initializes a new drawing event to begin, finally it uses the MLA (analayzeImage) to deterime which character was displayed
+def check(): 
+    '''
+    This function has 3 parts:
+    - firstly it saves the image drawing on the canvas
+    - it deletes the image from the screen and initializes a new drawing event to begin
+    - finally it uses the MLA (analayzeImage) to deterime which character was displayed
+    '''
     global text, displayText, image1,draw # initialize various global variables
     filename = 'character.jpg' # save image to a constant name, this means that images drawn by individual are overwritten upon each iteration of this function
     image1.save(filename) # save the image to this name ^ as a jpg
@@ -123,9 +129,8 @@ def check(): # this function has 3 parts) firstly it saves the image drawing on 
     image1 = PIL.Image.new("RGB", (width, height), white) # initialize a new drawing on the canvas
     draw = ImageDraw.Draw(image1)
 
-    # machine learning stuff on the new file
+    # Call Machine Learning Function on the New Image
     ans = analyzeImage() # analyze the image that was recently created
-    #print(ans)
     text += ans # add this character to the global variable text
     displayText.set(text) # use string variable (part of tkinter) to display this updated phrase
 
@@ -159,8 +164,7 @@ def copy(): # using the 'pyperclip' module, copy the gv text's contents to the u
     displayText.set(text)
     pyperclip.copy(text)
 
-    
-# Defining the Tkiner window    
+# Defining the Tkiner window 
 root = Tk() # initiallization of the tkinter window (Graphical User Interface)
 root.title("Letter Checker")
 root.resizable(width=False,height=False)
